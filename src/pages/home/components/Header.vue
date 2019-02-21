@@ -7,10 +7,10 @@
       <span class="iconfont">&#xe632;</span>
       城市/景点/游玩主题
     </div>
-    <div class="header-right">
+    <router-link tag="div" to="/city" class="header-right">
       {{city}}
       <span class="iconfont arrow-icon">&#xe64a;</span>
-    </div>
+    </router-link>
   </div>
 </template>
 
